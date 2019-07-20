@@ -31,6 +31,11 @@ public class MainActivityTest {
             assertEquals("Result is okey",exps[i],f,.001);
         }
 
+        hello();
+    }
+
+    public void hello(){
+        System.out.println("Hello test");
     }
 
     @Test
